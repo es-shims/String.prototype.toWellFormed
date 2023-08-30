@@ -7,7 +7,7 @@ var mockProperty = require('mock-property');
 var hasSymbols = require('has-symbols')();
 var hasBigInts = require('has-bigints')();
 
-var SymbolDescriptiveString = require('es-abstract/2022/SymbolDescriptiveString');
+var SymbolDescriptiveString = require('es-abstract/2023/SymbolDescriptiveString');
 
 var leadingPoo = '\uD83D';
 var trailingPoo = '\uDCA9';
