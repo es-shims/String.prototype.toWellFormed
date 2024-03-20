@@ -1,9 +1,9 @@
 'use strict';
 
-var CodePointAt = require('es-abstract/2023/CodePointAt');
+var CodePointAt = require('es-abstract/2024/CodePointAt');
 // var UTF16EncodeCodePoint = require('es-abstract/2023/UTF16EncodeCodePoint');
 var RequireObjectCoercible = require('es-object-atoms/RequireObjectCoercible');
-var ToString = require('es-abstract/2023/ToString');
+var ToString = require('es-abstract/2024/ToString');
 
 module.exports = function toWellFormed() {
 	var O = RequireObjectCoercible(this); // step 1
